@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "clean": "npx rimraf dist",
-    "build": "npx parcel build src/* --out-dir dist/ && cp manifest.json dist/manifest.json && cp -r icons/ dist/icons/",
-    "watch": "cp manifest.json dist/manifest.json && cp icons/ dist/icons/ && parcel watch src/* --out-dir dist/ --no-hmr"
+    "build": "npx parcel build src/* --out-dir dist/ && npx copy manifest.json dist/manifest.json && npx copy icons/* dist/"
   },
   "author": "Andrew Bastin",
   "license": "ISC",
   "devDependencies": {
+    "copy": "^0.3.2",
     "parcel-bundler": "^1.12.4",
     "rimraf": "^3.0.0"
   },
