@@ -13,14 +13,10 @@
   "content_scripts": [
     {
       "matches": [
-        "https://postwoman.io",
-        "http://postwoman.io",
+        "https://postwoman.io/",
         "https://postwoman.io/*",
-        "http://postwoman.io/*",
         "https://postwoman.netlify.com/*",
-        "http://postwoman.netlify.com/*",
-        "https://postwoman.netlify.com",
-        "http://postwoman.netlify.com"
+        "https://postwoman.netlify.com/"
       ],
       "js": [ "index.js" ]
     }
