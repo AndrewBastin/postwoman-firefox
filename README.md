@@ -6,6 +6,7 @@
 
 <br />
 This extension currently provides the following features to Postwoman.
+
 - Overrides CORS restrictions for cross-origin requests.
 
 
