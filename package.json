@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "npx rimraf dist",
-    "build": "npx parcel build src/* --out-dir dist/ && npx copy manifest.json dist/manifest.json && npx copy icons/* dist/"
+    "build": "npx parcel build src/* --out-dir dist/ && npx copy manifest.json dist/ && npx copy icons/* dist/"
   },
   "author": "Andrew Bastin",
   "license": "ISC",
