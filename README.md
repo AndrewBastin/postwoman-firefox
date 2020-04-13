@@ -1,3 +1,6 @@
+**NOTE : The code required for this extension to work is removed from Postwoman v1.9.5 and up**
+
+
 # Postwoman Extension for Firefox
 
 <a href="https://addons.mozilla.org/en-US/firefox/addon/postwoman/">![Get the add-on](https://addons.cdn.mozilla.net/static/img/addons-buttons/AMO-button_2.png)</a>
